@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set the value to 'Dane' as a the name 
+// We check if name is triple equal to Mary 
+//If it does 'we console log 'Hi, Mary!''
+// If it doesnt we move to the next code piece and run that code 'console log 'How do you do?''
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we declare a variable called secret
+// we declare a variable called code and assign it a 123 as the code
+// We check if code equals 123 we assign secret to super we multiply code by 2
+// we check if code is greater than 250. We assign secret to duper
+// we 'console log 'secret' 
 
 //CODE
 /*
@@ -70,11 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// we make a varible called isStudent and assign true as the isStudent
+// we make a variable called age and assign 34 as the age
+// we make a variable called zip and assign 55407 as the zip
+// We check if isStudent is equal to true and zip is greater than 80000.  Zip is not greater than 8000. This not true so we move on to the next code block
+// Check if isStudent equals to false or age less than 30. That is not true so we move on to the next code block
+// We check if isStudent is equal to true. It is so we 'console log 'Welcome to prime!''
 //CODE
 /*
 let isStudent = true;
@@ -130,7 +132,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix Value colorOne should = 'blue';
 let colorOne = 'red';
+//Fix Value colorTwo should = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
@@ -146,7 +150,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// The correct term to use is or ( ||) as a opposed to and (&&)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +163,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//The instructions says greater than or equal ( >= ) as opposed to less than or equal ( <=) that is writing for the code block
 if(minAge <= age) {
   console.log('no entry');
 } else {
