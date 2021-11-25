@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// we make a variable called name and set the value to 'Dane' as a the name 
-// We check if name is triple equal to Mary 
-//If it does 'we console log 'Hi, Mary!''
-// If it doesnt we move to the next code piece and run that code 'console log 'How do you do?''
+// we declare a variable called 'name' and assign it the value 'Dane' as a string
+// we check if the variable 'name' equals to the value 'Mary'. If true we console log the value 'Hi, Mary!'
+// It is not true so we move on to the next code block 'else' and console log the value  'How do you do?'
 
 //CODE
 /*
@@ -45,12 +44,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// we declare a variable called secret
-// we declare a variable called code and assign it a 123 as the code
-// We check if code equals 123 we assign secret to super we multiply code by 2
-// we check if code is greater than 250. We assign secret to duper
-// we 'console log 'secret' 
-
+// we declare a variable called 'secret'
+// we declare a variable called 'code' and assign it the value 123 as a number
+// We check if code equal 123, if true we run the code in the curly bracket 
+// Set the variable 'secret' to equal the string value "super"
+// Set the variable 'code' to equal to the value 'code' * 2 (246)
+// check to see if the the in the 'code' variable is greater the than the number 250
+// if true set the value of variable 'secret' to equal to the string value 'duper'
+// The value of the variable 'code' is not greater than the value of the variable 'secret' so 'secret' stays at 'super'
+// console log the value of 'secret' which is 'super'
 //CODE
 /*
 let secret;
@@ -139,7 +141,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple'; // The instructions says to set colorOne and colorTwo to 'purple' so colorTwo should also be set to purple inside the curly brackets.
 }
 */
 
